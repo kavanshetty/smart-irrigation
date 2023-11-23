@@ -6,8 +6,36 @@ FEATURES: mart irrigation systems incorporate various features that leverage tec
 
 **Mind mapping**
 
-![WhatsApp Image 2023-11-17 at 7 49 31 AM](https://github.com/vaishnavipoojary19/Smart-irrigation/assets/149759487/18234105-2ad2-41bb-a3ee-3f1ad9241411)
+![WhatsApp Image 2023-11-23 at 10 36 29 AM](https://github.com/vaishnavipoojary19/Smart-irrigation/assets/149662396/e476773d-cbe5-4231-9973-032b333be6a0)
 
-**flowchart**
 
-![Capture](https://github.com/vaishnavipoojary19/Smart-irrigation/assets/149759487/f2d14250-4db0-4462-90ad-207f29cc848c)
+
+**flowchart:
+
+![Screenshot (44)](https://github.com/vaishnavipoojary19/Smart-irrigation/assets/149662396/9fad9112-20f0-4849-be75-cff1d2aebd15)
+
+
+
+algorithm:
+
+Step 1: start
+
+Step 2: Initialize the system
+
+Step 3: Read the PIR, moisture sensor from soil and tank
+
+step 4: Receive the observed data 
+
+Step 5: analyze the data
+
+Step 6: if motion detected, buzzer get activated, if no re-read the PIR sensor.
+             If the soil is dry, it start the irrigation process, or else re-read the moisture in the soil.
+             If the tank level below the below the threshold , motor will turn on , if no re-measure   
+              the tank level .
+              
+Step 6 : stop
+
+block daigram:
+![Screenshot (32)](https://github.com/vaishnavipoojary19/Smart-irrigation/assets/149662396/7bf596ee-8d4f-476a-bdce-61cd64213c6e)
+
+
